@@ -2,7 +2,7 @@
     "id": "b4e1cbe7-4922-4ad8-9578-b593714ded53",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_obj_fire_02",
+    "name": "spr_obj_fire",
     "For3D": false,
     "HTile": false,
     "VTile": false,
