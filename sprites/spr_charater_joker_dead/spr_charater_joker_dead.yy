@@ -2,7 +2,7 @@
     "id": "01635670-045a-435d-b23c-9e90f94c7ca0",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_character_joker_04",
+    "name": "spr_charater_joker_dead",
     "For3D": false,
     "HTile": false,
     "VTile": false,

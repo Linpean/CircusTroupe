@@ -3,3 +3,7 @@
 if ( x <16 ){
 	instance_destroy();
 }
+
+if(obj_joker.dead == 1){
+	speed = 0;
+}

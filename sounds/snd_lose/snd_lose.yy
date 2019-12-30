@@ -1,8 +1,8 @@
 {
-    "id": "24adf6a4-9ea5-40cd-bbb0-4d5a484a7f10",
+    "id": "6dfba2a6-acff-4303-8f2f-d3d5257c8717",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_lose",
+    "name": "snd_Lose",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

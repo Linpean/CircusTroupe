@@ -34,7 +34,7 @@
             "Key": "01635670-045a-435d-b23c-9e90f94c7ca0",
             "Value": {
                 "id": "0394225c-3ebb-426d-a375-9e739a559b54",
-                "resourcePath": "sprites\\spr_character_joker_04\\spr_character_joker_04.yy",
+                "resourcePath": "sprites\\spr_charater_joker_dead\\spr_charater_joker_dead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -66,7 +66,7 @@
             "Key": "24adf6a4-9ea5-40cd-bbb0-4d5a484a7f10",
             "Value": {
                 "id": "8c420631-0624-4f71-937e-7decadc06805",
-                "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
+                "resourcePath": "sounds\\snd_Jump\\snd_Jump.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -138,7 +138,7 @@
             "Key": "6dfba2a6-acff-4303-8f2f-d3d5257c8717",
             "Value": {
                 "id": "111ff9ea-9820-4a76-9561-c6f07615f466",
-                "resourcePath": "sounds\\snd_Jump\\snd_Jump.yy",
+                "resourcePath": "sounds\\snd_Lose\\snd_Lose.yy",
                 "resourceType": "GMSound"
             }
         },

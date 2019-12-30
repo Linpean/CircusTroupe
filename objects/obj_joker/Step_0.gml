@@ -3,8 +3,32 @@
 //因为需要每帧检测输入事件，所以一般将角色控制在step事件中完成
 
 //角色左右移动--Date--20170723
+//死亡状态--Date--20170725
+if (dead == 1)
+{
+	sprite_index = spr_charater_joker_dead;
+	speed = 0;
+	gravity = 0;
+	//如果角色处于死亡状态，将它的精灵索引改为角色死亡精灵,速度和重力加速度都归0，然后在控制器内停止火圈移动
+
+	if(timer == 24)
+	{
+		audio_play_sound(snd_Lose,10,false);
+		//在24帧时播放失败音效
+	}
+	if(timer ==100)
+	{
+		game_restart();
+		//游戏重=重新开始
+	}
+	timer +=1;
+	exit;
+	//step事件的代码，从exit处后面的所有代码都将跳过并不再执行
+}
+
 if (jump == 0)
 {	
+	
 	{//角色左右移动--Date--20170723
 		if ( keyboard_check(vk_right))
 		{
@@ -33,12 +57,14 @@ if (jump == 0)
 	if(keyboard_check_pressed(ord("J")) )
 	{	
 		direction = 90;//内置变量，运动方向
-		speed = 4.5;//内置变量，运动速度
+		speed = 3.8;//内置变量，运动速度
 		gravity = 0.14;//内置变量，重力
 		jump = 1;//跳跃状态变为跳跃中
 		image_index = 1;
+		audio_play_sound(snd_Jump,10,false);
 	}
 
+	
 }
 
 if (jump == 1)
