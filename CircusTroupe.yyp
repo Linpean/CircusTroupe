@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "24adf6a4-9ea5-40cd-bbb0-4d5a484a7f10",
+            "Value": {
+                "id": "8c420631-0624-4f71-937e-7decadc06805",
+                "resourcePath": "sounds\\snd_lose\\snd_lose.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2f4a06ac-3cd1-4ce2-bfaa-46bd692d09f7",
             "Value": {
                 "id": "d291c610-6341-406b-bc85-6a3466004144",
@@ -114,8 +122,24 @@
             "Key": "6bd65506-721a-4d52-a25f-1b160f769d79",
             "Value": {
                 "id": "1fd7d3b9-04e4-4654-af0d-3abf99cc34b6",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_game\\rm_game.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "6dfba2a6-acff-4303-8f2f-d3d5257c8717",
+            "Value": {
+                "id": "111ff9ea-9820-4a76-9561-c6f07615f466",
+                "resourcePath": "sounds\\snd_Jump\\snd_Jump.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6eeb6cc6-266b-4b6e-8b85-e876d44cc551",
+            "Value": {
+                "id": "32ed6e93-50d2-41c1-818f-34835a49db8d",
+                "resourcePath": "sounds\\snd_Background\\snd_Background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -124,6 +148,14 @@
                 "id": "54512cc3-045a-4c4d-b1f7-15e29073a19a",
                 "resourcePath": "views\\7cd9cb84-b3f3-435e-90f5-7f35c33f8107.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "811113bd-d4e3-487f-b655-1e6e73781653",
+            "Value": {
+                "id": "e83a2a37-ddc7-4bca-abfd-f80d72ef474e",
+                "resourcePath": "sounds\\snd_Collision\\snd_Collision.yy",
+                "resourceType": "GMSound"
             }
         },
         {
