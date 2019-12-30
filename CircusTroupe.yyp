@@ -58,7 +58,7 @@
             "Key": "14bc3c84-8414-4d59-b029-cd2c6c7ecf0f",
             "Value": {
                 "id": "2f1690e6-b185-427e-8b63-05c218c6c03d",
-                "resourcePath": "objects\\obj_file\\obj_file.yy",
+                "resourcePath": "objects\\obj_fire\\obj_fire.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -284,6 +284,14 @@
                 "id": "d2dd12aa-9092-4cd4-9177-1b700cb624f1",
                 "resourcePath": "sprites\\spr_character_joker_02\\spr_character_joker_02.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "df496c79-f0b3-42af-a2a6-4298a0443db5",
+            "Value": {
+                "id": "1151aa7f-8a2f-4dab-9b96-00e90ffbb308",
+                "resourcePath": "objects\\obj_fire_right\\obj_fire_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
