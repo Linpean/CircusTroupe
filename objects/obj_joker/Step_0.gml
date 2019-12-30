@@ -10,7 +10,14 @@ if (dead == 1)
 	speed = 0;
 	gravity = 0;
 	//如果角色处于死亡状态，将它的精灵索引改为角色死亡精灵,速度和重力加速度都归0，然后在控制器内停止火圈移动
-
+	
+	if(timer == 0)
+	{
+		audio_stop_all();
+		audio_play_sound(snd_Collision,10,false);
+		//死亡时先关闭所有音效，然后播放死亡音效
+	}
+	
 	if(timer == 24)
 	{
 		audio_play_sound(snd_Lose,10,false);
@@ -25,6 +32,10 @@ if (dead == 1)
 	exit;
 	//step事件的代码，从exit处后面的所有代码都将跳过并不再执行
 }
+
+
+
+
 
 if (jump == 0)
 {	
